@@ -1,5 +1,4 @@
 # IT-Home-Labs
-My Home Labs
 IT Home Labs Portfolio
 
 About Me
