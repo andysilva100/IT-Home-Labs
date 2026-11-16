@@ -1,12 +1,12 @@
-Windows Server 2025 & Active Directory Lab
+# Windows Server 2025 & Active Directory Lab
 
-Project Overview
+## Project Overview
 
 This project demonstrates hands-on experience deploying and managing a Windows Server 2025 environment using Oracle VirtualBox. The lab focuses on Active Directory administration, DNS, DHCP, and Windows 11 client networking.
 
 The objective was to practice common IT support and junior systems administration tasks in a virtualized environment.
 
-Lab Environment
+## Lab Environment
 
 Component| Configuration
 Hypervisor| Oracle VirtualBox
@@ -16,7 +16,7 @@ Domain| corp.example.com
 NetBIOS Name| CORP
 Server Hostname| ITLAB-SERVER
 
-1. Active Directory Domain Services
+## 1. Active Directory Domain Services
 
 Configured and verified Active Directory Domain Services (AD DS).
 
@@ -36,7 +36,7 @@ Get-ADOrganizationalUnit -Filter *
 
 Get-ADUser -Filter * -Properties Enabled
 
-2. User and Security Group Management
+## 2. User and Security Group Management
 
 Practiced common Active Directory account administration tasks.
 
@@ -60,7 +60,7 @@ Add-ADGroupMember -Identity "HelpDesk_Tier1" -Members "John Smith"
 
 Get-ADGroupMember -Identity "HelpDesk_Tier1"
 
-3. DNS Configuration
+## 3. DNS Configuration
 
 Verified the DNS Server role and inspected DNS zones and records.
 
@@ -85,7 +85,7 @@ nslookup corp.example.com
 
 nslookup ITLAB-SERVER
 
-4. DHCP Configuration
+## 4. DHCP Configuration
 
 Inspected and verified DHCP Server configuration.
 
@@ -106,7 +106,7 @@ Get-DhcpServerv4Lease -ScopeId <ScopeId>
 
 Get-DhcpServerv4OptionValue -ScopeId <ScopeId>
 
-5. Windows 11 Client Networking
+## 5. Windows 11 Client Networking
 
 Used a Windows 11 virtual machine to test connectivity and network configuration.
 
@@ -125,7 +125,7 @@ ipconfig /all
 
 nslookup corp.example.com
 
-6. Technologies and Tools
+## 6. Technologies and Tools
 
 - Windows Server 2025
 - Windows 11
@@ -139,7 +139,7 @@ nslookup corp.example.com
 - IPv4
 - DNS name resolution
 
-7. Skills Practiced
+## 7. Skills Practiced
 
 - Active Directory administration
 - Domain user account management
@@ -150,7 +150,7 @@ nslookup corp.example.com
 - PowerShell administration
 - Virtual machine management
 
-8. Project Screenshots
+## 8. Project Screenshots
 
 Screenshots documenting the lab configuration and testing are available in the "screenshots folder" (screenshots/).
 
